@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=NotoSans">
+        <title>Weather Data with OpenWeatherMap API</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="input">
+                <input id="input-city" autocomplete="off" type="text" placeholder="Search location (Eg. London, Germany..)">
+                <button id="submit"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+            <div class="error"></div>
+            <div class="weather-details">
+                <img src="">
+                <p class="temperature"></p>
+                <p class="description"></p>
+                <div class="weather-condition">
+                    <div class="humidity">
+                        <i class="fa-solid fa-water"></i>
+                        <div class="text">
+                            <span></span>
+                            <p>Humidity</p>
+                        </div>
+                    </div>
+                    <div class="wind">
+                        <i class="fa-solid fa-wind"></i>
+                        <div class="text">
+                            <span></span>
+                            <p>Temperature</p>
+                        </div>
+                    </div>
+                </div>
+                <small>API Used: <a target="_blank" href="https://openweathermap.org/current">Open Weather</a></small>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+        <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
+    </body>
+</html>
+<!-- API Used is Open Weather https://openweathermap.org/current -->
